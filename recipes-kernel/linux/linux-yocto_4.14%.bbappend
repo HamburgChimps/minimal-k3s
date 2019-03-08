@@ -7,3 +7,6 @@ SRC_URI += "file://ebtables.scc \
 
 KERNEL_MODULE_AUTOLOAD += "xt_conntrack"
 KERNEL_MODULE_AUTOLOAD += "xt_addrtype"
+KERNEL_MODULE_AUTOLOAD += "br_netfilter"
+KERNEL_MODULE_AUTOLOAD += "ip_vs"
+
