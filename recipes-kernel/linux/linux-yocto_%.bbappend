@@ -1,5 +1,4 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
-SRC_URI += "file://config_baseline.cfg"
 
 SRC_URI += "file://ebtables.cfg \
             file://lxc.cfg \
